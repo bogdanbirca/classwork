@@ -6,29 +6,29 @@ p:hover {
   
 p::before {
   content: 'Hi!';
-  color:red;
+  color:purple;
   font-weight:600;
 
 }
 
 p::after {
-  content: 'Bye!';
-  color:blue;
+  content: 'after';
+  color:orange;
   font-weight:600;
 }
 
 p::selection {
-  color:purple;
+  color:red;
 
 }
 
 
 .test {
-  visibility: visible;
+  visibility: hidden;
 }
 
 .testing {
-  opacity: 0.5
+  opacity: 0
 }
 
 .test1 {
