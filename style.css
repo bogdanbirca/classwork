@@ -24,13 +24,13 @@ p::selection {
 
 
 .test {
-  visibility: hidden;
+  visibility: visible;
 }
 
 .testing {
-  opacity: 0
+  opacity: 0.5;
 }
 
 .test1 {
- display: inline;
+ display: block;
 }
